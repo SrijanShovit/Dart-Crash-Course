@@ -1,9 +1,11 @@
 void main(List<String> args) {
   final person = Person();
   //function is only called 1st time to resolve;after that resolved value is used
+  print("-----------");
+  print(person.firstName);
+  print("***********");
   print(person.fullName);
   print(person.lastName);
-  print(person.firstName);
 
   print(person.fullName);
   print(person.lastName);

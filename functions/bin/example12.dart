@@ -5,8 +5,6 @@
 //they can have deafult value
 //or optional data type
 
-import 'package:test/expect.dart';
-
 void main(List<String> args) {
   //giving parameters is optional
   //they will be in order

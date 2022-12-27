@@ -9,13 +9,13 @@ void main(List<String> args) {
 
   try {
     final foo =
-        firstName!; //i don't care ehat is the content of firstName, I would read it so if it is null program will crash
+        firstName!; //i don't care what is the content of firstName, I would read it so if it is null program will crash
     print(foo);
   } catch (e) {
     print(e); //Null check operator used on a null value
   }
 
-  // so ! is very dangerous bcz we ar e risking ourselves to be 50% program crash
+  // so ! is very dangerous bcz we are risking ourselves to be 50% program crash
   //as we want only to read names
   print(firstName ?? 'No names found');
 }
